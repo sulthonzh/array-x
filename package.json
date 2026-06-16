@@ -1,0 +1,28 @@
+{
+  "name": "array-x",
+  "version": "1.0.0",
+  "description": "Zero-dependency array manipulation utilities — chunk, flatten, unique, set ops, permutations, sorting, grouping, and more",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./cli.js": "./src/cli.js"
+  },
+  "bin": {
+    "array-x": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test src/test.js"
+  },
+  "keywords": ["array", "utilities", "chunk", "flatten", "unique", "union", "intersection", "permutations", "combinations", "shuffle", "groupBy", "sortBy", "zero-dependency"],
+  "license": "MIT",
+  "author": "sulthonzh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulthonzh/array-x.git"
+  },
+  "homepage": "https://github.com/sulthonzh/array-x#readme",
+  "bugs": {
+    "url": "https://github.com/sulthonzh/array-x/issues"
+  }
+}
