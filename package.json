@@ -14,7 +14,21 @@
   "scripts": {
     "test": "node --test src/test.js"
   },
-  "keywords": ["array", "utilities", "chunk", "flatten", "unique", "union", "intersection", "permutations", "combinations", "shuffle", "groupBy", "sortBy", "zero-dependency"],
+  "keywords": [
+    "array",
+    "utilities",
+    "chunk",
+    "flatten",
+    "unique",
+    "union",
+    "intersection",
+    "permutations",
+    "combinations",
+    "shuffle",
+    "groupBy",
+    "sortBy",
+    "zero-dependency"
+  ],
   "license": "MIT",
   "author": "sulthonzh",
   "repository": {
@@ -24,5 +38,14 @@
   "homepage": "https://github.com/sulthonzh/array-x#readme",
   "bugs": {
     "url": "https://github.com/sulthonzh/array-x/issues"
+  },
+  "files": [
+    "src/index.js",
+    "src/cli.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
   }
 }
